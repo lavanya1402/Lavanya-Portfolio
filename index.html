@@ -1,811 +1,302 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<!-- Basic -->
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Mobile Metas -->
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<!-- Site Metas -->
-<title> Lavanya Portfolio </title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<!-- Site Icons -->
-<link rel="shortcut icon" href="images/logo.png" type="image/x-icon" style="border-radius: 50%;" />
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Site CSS -->
-<link rel="stylesheet" href="css/style.css">
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
-<!-- Add Font Awesome CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Yh+uHI41h/iIyAo+Wwy6Gp0iqyQj8bUS3UitBzSQV31hOMV66GzeWJshlUk41omnhJ5KWjIGQ8m3orvNZos4xA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-</head>
-
-
-<!--main website code starts-->
-
-<body id="page-top" class="politics_version">
-
-    <!-- LOADER -->
-    <div id="preloader">
-        <div id="main-ld">
-            <div id="loader"></div>
-        </div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-
-    
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="header">
-        <ul class="navigation">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#experience">Experience</a></li>
-        <li><a href="#Project">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <span class="toggleMenu"></span>
-        </ul>
-        <script>
-        let toggleMenu = document.querySelector('.toggleMenu');
-            let navigation = document.querySelector('.navigation');
-            toggleMenu.onclick=function(){
-                navigation.classList.toggle('active');
-            }
-            </script>
-   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    const aboutSection = document.querySelector('.about'); // Select the About section
-    const defaultScrollHeight = 500; // Adjust this value as needed
-
-    // Scroll to the About section with a default scroll height on page load
-    window.scrollTo({
-        top: aboutSection.offsetTop + defaultScrollHeight,
-        behavior: 'auto' // 'auto' can be used for immediate scroll without animation
-    });
-});
-
-
-    </script>
-       
-    </div>
-        
-    </nav>  
-<!--End of Navigation-->
-
-<!--Home-Section-->
-    <section id="home" class="main-banner parallaxie" style="background: url('images/bg1.jpg')">
-      <div class="heading">
-          <h1>Hello !</h1>
-          <p>
-           <b>I'm Lavanya Srivastava.</b> Welcome to my website. 
-
-            <br>Scroll down to know more about my work!
-            </p>
-
-
-          <h3 class="cd-headline clip is-full-width">
-              <span>I do</span>
-              <span class="cd-words-wrapper">
-                  <b class="is-visible">Data Analysis</b>
-                  <b>Data Visualization</b>
-                  <b>Data Mining</b>
-                  <b>Statistical Modelling</b>
-                  <b>Machine Learning</b>
-                  <b>Predictive Modelling</b>
-                  <!-- Add more skills-->
-              </span>
-          </h3>
-
-        
-
-          <!-- <div class="button-wrapper text-center">
-              <a id="hireMeLink" href="#" class="btn btn-primary">Ping me</a>
-          </div> -->
-          <!-- Icon links -->
-          <div class="icon-links">
-              <a href="https://www.linkedin.com/in/lavanya-srivastava-2a2aba54" target="_blank" class="icon-link">
-                  <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="https://github.com/lavanya1402" target="_blank" class="icon-link">
-                  <i class="fab fa-github"></i>
-              </a> 
-              <a href="mailto:lavanya.sriva@gmail.com" class="icon-link">
-                  <i class="far fa-envelope"></i>
-              </a>
-          </div>
-          <!-- CSS Styles for the icons -->
-          <style>
-              .icon-links {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  margin-top: 20px;
-              }
-
-              .icon-link {
-                  display: inline-flex;
-                  justify-content: center;
-                  align-items: center;
-                  width: 60px;
-                  height: 60px;
-                  border-radius: 50%;
-                  background-color: #333;
-                  color: #fff;
-                  margin: 0 10px;
-                  font-size: 24px;
-                  text-decoration: none;
-                  transition: background-color 0.3s;
-              }
-
-              .icon-link:hover {
-                  background-color: #555;
-              }
-          </style>
-          <style>
-              .btn {
-                  display: inline-block;
-                  padding: 12px 24px;
-                  font-size: 16px;
-                  background-color: white;
-                  color: black;
-                  text-decoration: none;
-                  transition: background-color 0.3s;
-              }
-
-              .btn:hover {
-                  background-color: rgb(0, 0, 0);
-                  color: white;
-              }
-              
-          </style>
-     
-  </section>
-   
-  
-  <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
-    <path d="M-5 100 Q 0 20 5 100 Z 
-        M0 100 Q 5 0 10 100
-        M5 100 Q 10 30 15 100
-        M10 100 Q 15 10 20 100
-        M15 100 Q 20 30 25 100
-        M20 100 Q 25 -10 30 100
-        M25 100 Q 30 10 35 100
-        M30 100 Q 35 30 40 100
-        M35 100 Q 40 10 45 100
-        M40 100 Q 45 50 50 100
-        M45 100 Q 50 20 55 100
-        M50 100 Q 55 40 60 100
-        M55 100 Q 60 60 65 100
-        M60 100 Q 65 50 70 100
-        M65 100 Q 70 20 75 100
-        M70 100 Q 75 45 80 100
-        M75 100 Q 80 30 85 100
-        M80 100 Q 85 20 90 100
-        M85 100 Q 90 50 95 100
-        M90 100 Q 95 25 100 100
-        M95 100 Q 100 15 105 100 Z"
-        pathfill="rgb(248, 228, 237)">
-    </path>
-</svg>
-
-
-  </div>
-  <br>
-  <div>
-    
-    
-  </div>
-<!--End of Home-Section-->
-
-<!--About-Me-->
-<div class="about" id="about">
-    <div class="container">
-        <div class="col-md-12">
-
-            <h2 class="section-title text-center font-weight-bold" style="font-size: 40px;">
-            <div class="waviy">
-                <span style="--i:1">A</span>
-                <span style="--i:2">b</span>
-                <span style="--i:3">o</span>
-                <span style="--i:4">u</span>
-                <span style="--i:5">t</span>
-                <span>-</span>
-                <span style="--i:7">m</span>
-                <span style="--i:8">e</span>
-               </div>
-            </h2>
-    
-
-        </div>
-        <div class="row">
-            <!-- Left Column - What I Do -->
-            <div class="col-md-4">
-                <div class="left-container">
-                    <div class="content-box left-content">
-                        <h2>Who Am I?</h2>
-                        <div class="message-box">
-                            <p class="about-pleft">
-                              • Hi, I'm Lavanya Srivastava,Data Analyst and Trainer specializing in Statistical Modelling, Machine Learning, Predictive Modelling, and Data Mining. Proficient in Python, SQL,and Tableau.<br>• I turn raw data into actionable insights, leading AI-driven projects that boost profitability and client satisfaction.
-
-                            </p>
-                        </div>
-                        <div class="message-box">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Middle Column - Image -->
-            <div class="col-md-4 text-center">
-                <div class="img">
-                    <img src="images/Lavanya (1).png" alt="Lavanya" class="hi">
-                </div>
-                <div class="resume mt-3">
-                    <a href="https://drive.google.com/file/d/1rCbOfGorKY8U68bFI3YepKmNgJASAX-x/view?usp=sharing" class="btn" target="_blank">Resume</a>
-                </div>
-
-                <!-- <a href="#contact" class="btns link-item"> contact me</a> -->
-
-            </div>
-
-            <!-- Right Column - Who I am -->
-            <div class="col-md-4">
-                <div class="right-container">
-                    <div class="content-box right-content">
-                        <h2>What I Do?</h2>
-                        <div class="message-box">
-                            <p class="about-pright">
-            • Conduct thorough data analysis and research to inform strategic decisions and optimize outcomes.<br>
-            • Apply advanced statistical methods to tackle real-world challenges and drive measurable improvements.<br>
-            • Educate and train teams on the latest technologies and analytical techniques to foster growth and innovation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lavanya Srivastava — AI Developer, Educator &amp; Consultant</title>
+<meta name="description" content="Lavanya Srivastava builds AI agents, chatbots and automation for business and education, and teaches non-technical learners to build with AI.">
+<meta name="author" content="Lavanya Srivastava">
+<meta property="og:title" content="Lavanya Srivastava — AI Developer, Educator & Consultant">
+<meta property="og:description" content="AI agents, chatbots and automation for business and education. Live demos and code.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lavanya-portfolio.vercel.app/">
+<meta property="og:image" content="https://lavanya-portfolio.vercel.app/assets/lavanya.jpg">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-    .waviy {
-    position:absolute;
-    align-items: top;
-    top: 40%;
-    right: 400px;
-    bottom: 370px;
-    letter-spacing: -5px;
-    }
-    .waviy span {
-    position: relative;
-    display: inline-block;
-    font-size: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    animation: flip 3s infinite;
-    animation-delay: calc(.2s * var(--i))
-    
-    }
-    @keyframes flip {
-    0%,80% {
-    transform: rotateY(360deg) 
-    }
-    }
-    @media (max-width: 768px) {
-    .waviy {
-    width: 100%; /* Full width for smaller screens */
-    right: 0; /* Adjust right distance */
-    text-align: center; 
-    }
-    .waviy span {
-    display: inline-block; /* Display spans horizontally */
-    margin: 0 1px; /* Optional: Add margin for spacing */
-    }
-    
-    }
-    @media (max-width: 992px) {
-    .waviy {
-        width: 100%; /* Full width for tablets */
-        right: 0; /* Adjust right distance if needed */
-        text-align: center; /* Center align the spans */
-    }
-
-    .waviy span {
-        display: inline-block; /* Display spans horizontally */
-        margin: 0 10px; /* Add margin for spacing between spans */
-    }
-}
-@media (max-width: 576px) {
-    .waviy {
-        width: 100%; /* Full width for tablets */
-        right: 0; /* Adjust right distance if needed */
-        text-align: center; /* Center align the spans */
-        letter-spacing: -8px;
-        margin-top:1%;
-        font-size: 5px;
-    }
-
-    .waviy span {
-        display: inline-block; /* Display spans horizontally */
-        margin: 0 10px; /* Add margin for spacing between spans */
-    }
-}
-
-
+:root{--ink:#2A1810;--ink2:#5C4636;--cream:#FBF6EC;--sand:#F3E9D6;--line:#E2D2B3;--gold:#E3B04B;--bronze:#8A5A12;--light:#F7EBD3;--muted:#CDB894}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Jost,system-ui,sans-serif;font-size:18px;line-height:1.6}
+a{color:var(--bronze)}a:hover{color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:3px solid #B7791F;outline-offset:3px}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--bronze);margin:0 0 12px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.1;margin:0}
+h2{font-size:clamp(34px,4vw,52px);margin-bottom:16px}
+section{padding:96px 0}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:#fff;padding:8px 12px;z-index:10}
+/* header */
+header{position:sticky;top:0;z-index:5;background:rgba(42,24,16,.97);color:var(--light)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--light);text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:8px}
+.brand span{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:700}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap;align-items:center;font-size:16px}
+nav a{color:var(--light);text-decoration:none}nav a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 26px;border-radius:999px;font-weight:600;text-decoration:none;font-size:16px}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#F2CC68;color:var(--ink)}
+.btn-line{border:1.5px solid var(--gold);color:var(--light)}.btn-line:hover{background:rgba(227,176,75,.12);color:var(--light)}
+.btn-dark{background:var(--ink);color:var(--light)}.btn-dark:hover{background:#3B2418;color:var(--light)}
+/* hero */
+.hero{background:var(--ink);color:var(--light);padding:72px 0 88px}
+.hero .wrap{display:flex;flex-wrap:wrap;gap:56px;align-items:center}
+.hero-text{flex:999 1 560px;min-width:0}
+.hero h1{font-size:clamp(46px,6.4vw,86px);line-height:1.02;margin:6px 0 18px}
+.hero h1 em{color:var(--gold)}
+.hero .role{font-size:20px;color:var(--gold);font-weight:500;margin:0}
+.hero p.lead{font-size:20px;color:#E8DAC0;max-width:620px;margin:0 0 32px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.socials{display:flex;gap:20px;margin-top:26px;flex-wrap:wrap;font-size:16px}
+.socials a{color:var(--muted)}.socials a:hover{color:var(--gold)}
+.portrait{flex:1 1 300px;display:flex;justify-content:center}
+.portrait img{width:min(360px,100%);height:auto;aspect-ratio:1;border-radius:50%;border:4px solid var(--gold);object-fit:cover;background:#fff}
+/* stats */
+.stats{background:var(--sand);border-bottom:1px solid var(--line);padding:32px 0}
+.stats .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px}
+.stat b{display:block;font-family:"Cormorant Garamond",serif;font-size:42px;line-height:1}
+.stat span{font-size:15px;color:var(--ink2)}
+/* projects */
+.intro{color:var(--ink2);max-width:760px;margin:0 0 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:12px}
+.card h3{font-size:28px}
+.card p{margin:0;color:var(--ink2);font-size:16.5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.tag{font-size:13px;background:var(--sand);color:var(--ink2);border-radius:999px;padding:3px 10px}
+.links{display:flex;gap:18px;flex-wrap:wrap;font-weight:600;font-size:16px}
+.badge{align-self:flex-start;font-size:12.5px;font-weight:600;border-radius:999px;padding:3px 12px;background:#E3EFE2;color:#1F5130}
+.badge.alt{background:#F6E7C8;color:#6B4508}
+h3.sub{font-family:Jost,sans-serif;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);margin:56px 0 18px}
+.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.mini a{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.mini a:hover{border-color:var(--bronze)}
+.mini b{display:block}.mini span{font-size:15px;color:var(--ink2)}
+/* standards */
+.dark{background:var(--ink);color:var(--light)}
+.dark .eyebrow{color:var(--gold)}
+.dark p{color:#E8DAC0}
+.std{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin-top:36px}
+.std div{border-top:2px solid var(--gold);padding-top:16px}
+.std h3{font-size:26px;margin-bottom:6px;color:var(--light)}
+.std p{margin:0;font-size:16px}
+/* teaching */
+.split{display:flex;flex-wrap:wrap;gap:48px}
+.split>div{flex:1 1 420px;min-width:0}
+ul.ticks{padding-left:20px;color:var(--ink2);margin:0}
+ul.ticks li{margin-bottom:8px}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.tl li{position:relative;padding:0 0 32px 28px}
+.tl li::before{content:"";position:absolute;left:-8px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:2px solid var(--cream)}
+.tl .when{font-size:14px;color:var(--bronze);font-weight:600}
+.tl h3{font-size:26px;margin:2px 0 4px}
+.tl .org{font-size:16px;color:var(--ink2);margin-bottom:6px}
+.tl p{margin:0;color:var(--ink2);font-size:16.5px}
+/* contact */
+.contact .wrap{display:flex;flex-wrap:wrap;gap:40px;align-items:center;justify-content:space-between}
+.contact .ctas{display:flex;flex-direction:column;gap:12px;flex:1 1 300px}
+footer{background:#1C0F09;color:var(--muted);font-size:15px;padding:28px 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+footer a{color:var(--muted)}
+@media (max-width:640px){header{position:static}section{padding:68px 0}nav ul{gap:14px;font-size:15px}.hero{padding-top:48px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
-<!--End of About-Me-->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/logo.jpg" alt="Lavanya AI Consultancy logo" width="44" height="44"><span>Lavanya Srivastava</span></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a class="btn btn-gold" style="min-height:42px;padding:8px 20px" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-
-<!-- skill section -->
-
-<div class="about-skill">   
-    <div class="skil">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill-item"><b>Python</b></div>
-            <div class="skill-item"><b>Statistics</b></div>
-            <div class="skill-item"><b>Machine Learning</b></div>
-            <div class="skill-item"><b>Tableau</b></div>
-            <div class="skill-item"><b>SQL</b></div>
-        </div>
+<main id="main">
+<section class="hero" id="top" aria-label="Introduction">
+  <div class="wrap">
+    <div class="hero-text">
+      <p class="role">AI Developer · Educator · Consultant</p>
+      <h1>I build AI agents, chatbots and automation, <em>and teach people to build them.</em></h1>
+      <p class="lead">I design generative and agentic AI systems for business and education, with human approval built in. I also teach AI to business students and professionals, making it accessible to people who have never written code.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#projects">See my AI projects</a>
+        <a class="btn btn-line" href="#contact">Work with me</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/lavanya1402">GitHub</a>
+        <a href="https://www.linkedin.com/in/lavanya-srivastava-2a2aba54">LinkedIn</a>
+        <a href="mailto:lavanya.sriva@gmail.com">lavanya.sriva@gmail.com</a>
+      </div>
     </div>
+    <div class="portrait"><img src="assets/lavanya.jpg" alt="Portrait of Lavanya Srivastava" width="360" height="360"></div>
+  </div>
+</section>
+
+<div class="stats" aria-label="At a glance">
+  <div class="wrap">
+    <div class="stat"><b>10+</b><span>AI applications built and published on GitHub</span></div>
+    <div class="stat"><b>7</b><span>university AI courses coordinated, 2026–27</span></div>
+    <div class="stat"><b>50+</b><span>online AI courses supported for learners worldwide</span></div>
+    <div class="stat"><b>~20 yrs</b><span>teaching statistics, science and research methods</span></div>
+  </div>
 </div>
-<br>
-<!--End of Skill-Section-->
 
-<!-- functional -->
-<div class="funct">
+<section id="projects" aria-labelledby="projects-h">
+  <div class="wrap">
+    <p class="eyebrow">Selected work</p>
+    <h2 id="projects-h">AI systems I have built</h2>
+    <p class="intro">Each project is open source, with setup steps, tests for its business logic and automated checks on every change. Where there is a live demo, you can try it now.</p>
 
-<div class="Pro">
-    <h2 class="section-title text-center font-weight-bold" style="font-size: 40px;">Functional Areas</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="badge">Live demo</span>
+        <h3>Multi-agent customer support bot</h3>
+        <p>A supervisor agent routes each request to order, policy and refund agents and keeps the conversation's context. Refunds above ₹50,000 pause for human approval.</p>
+        <div class="links"><a href="https://agentic-ai-customer-support.streamlit.app/">Try it</a><a href="https://github.com/lavanya1402/agentic-ai-customer-support">Code</a></div>
+        <div class="tags"><span class="tag">LangGraph</span><span class="tag">RAG</span><span class="tag">Human-in-the-loop</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">Live demo</span>
+        <h3>Policy Q&amp;A with citations</h3>
+        <p>Answers HR, policy and compliance questions from documents. Combines keyword and semantic search, reranks evidence and cites the source for every answer.</p>
+        <div class="links"><a href="https://rag-playgrounds.streamlit.app/">Try it</a><a href="https://github.com/lavanya1402/HybridRetrieval-RAG">Code</a></div>
+        <div class="tags"><span class="tag">Hybrid RAG</span><span class="tag">BM25 + FAISS</span><span class="tag">Evaluation</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">Live demo</span>
+        <h3>AI action safety benchmark</h3>
+        <p>Tests whether a model correctly allows, escalates or blocks an AI agent's action before it happens, with published results by decision type.</p>
+        <div class="links"><a href="https://jev-vs-laya.streamlit.app/">Try it</a><a href="https://github.com/lavanya1402/systemone-benchlab">Code</a></div>
+        <div class="tags"><span class="tag">AI evaluation</span><span class="tag">AI safety</span><span class="tag">Benchmark</span></div>
+      </article>
+      <article class="card">
+        <span class="badge alt">Education product</span>
+        <h3>Preboard Generator</h3>
+        <p>Drafts board-pattern question papers with step-wise answer keys in minutes. The AI drafts; a teacher approves every question before it can appear in a paper.</p>
+        <div class="links"><a href="#contact">Request a demo</a><a href="https://github.com/lavanya1402/preboard-generator-2310">Code</a></div>
+        <div class="tags"><span class="tag">EdTech</span><span class="tag">MCP</span><span class="tag">Teacher approval</span></div>
+      </article>
+      <article class="card">
+        <span class="badge alt">Voice AI</span>
+        <h3>Real-time voice AI for phone calls</h3>
+        <p>Streams live call audio from Twilio to Deepgram for transcription while the caller speaks, records latency per call, and turns the transcript into an LLM call report.</p>
+        <div class="links"><a href="https://github.com/lavanya1402/realtime-voice-ai-orchestrator">Code</a></div>
+        <div class="tags"><span class="tag">Twilio</span><span class="tag">Deepgram</span><span class="tag">FastAPI</span></div>
+      </article>
+      <article class="card">
+        <span class="badge alt">Enterprise agent</span>
+        <h3>Secure workplace assistant (MCP)</h3>
+        <p>An Azure AI agent that schedules meetings and drafts emails through custom MCP tools, checks each user's role, and masks personal data such as PAN and Aadhaar numbers.</p>
+        <div class="links"><a href="https://github.com/lavanya1402/lavanya-enterprise-mcp-server">Code</a></div>
+        <div class="tags"><span class="tag">MCP</span><span class="tag">Azure AI Foundry</span><span class="tag">PII protection</span></div>
+      </article>
+    </div>
 
-</div> <!-- end title -->
-<section class="fun">
-        <div class="card-container">
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/1.png" alt="Placeholder Image 1">
-                <h3><b>Data Visualization</b></h3>
-                <p>Bringing data to life with visual insights.</p>
-            </div>
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/2.png" alt="Placeholder Image 2">
-                <h3><b>Predictive Modeling</b></h3>
-                <p>Predicting future outcomes with precision.</p>
-            </div>
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/3.png" alt="Placeholder Image 3">
-                <h3><b>Data Analysis</b></h3>
-                <p>Turning data into actionable insights.</p>
-            </div>
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/4.png" alt="Placeholder Image 4">
-                <h3><b>Machine Learning</b></h3>
-                <p>Creating smart solutions with machine learning.</p>
-            </div>
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/5.png" alt="Placeholder Image 5">
-                <h3><b>Data Mining</b></h3>
-                <p>Discovering hidden patterns in data.</p>
-            </div>
-            <div class="cardfun glassmorphic-bg">
-                <img src="images/functional areas/6.png" alt="Placeholder Image 6">
-                <h3><b>Statistical Modeling</b></h3>
-                <p>Building reliable models to understand data.</p>
-            </div>
-        </div>
-    </section>
-</div>
-<!--End of Function Area-->
+    <h3 class="sub">More projects</h3>
+    <div class="mini">
+      <a href="https://github.com/lavanya1402/secure-nlsql-backend"><b>Secure natural-language SQL</b><span>Plain-English questions to controlled SQL, with role checks and audit logs</span></a>
+      <a href="https://github.com/lavanya1402/DocTableExtractor"><b>DocTableExtractor</b><span>Scanned tables to Excel, with doubtful rows flagged for review</span></a>
+      <a href="https://github.com/lavanya1402/VideoQuiz-GenAI"><b>VideoQuiz</b><span>Training video to transcript, summary and scored quiz</span></a>
+      <a href="https://github.com/lavanya1402/FortressRAG"><b>FortressRAG</b><span>Multi-tenant, versioned document search with a reranker</span></a>
+      <a href="https://github.com/lavanya1402/HealthSenseAI"><b>HealthSenseAI</b><span>Multilingual health-information assistant with strict grounding and safety guards</span></a>
+      <a href="https://github.com/lavanya1402/Human-in-the-Loop-Financial-Document-Summarizer"><b>Financial document summarizer</b><span>AI summaries that a reviewer approves before use</span></a>
+      <a href="https://github.com/lavanya1402/AutoScrum-AgenticAI"><b>AutoScrum</b><span>Sprint plans, risks and reports from a product backlog</span></a>
+      <a href="https://github.com/lavanya1402/ai-finance-expense-automation-system"><b>Expense automation</b><span>Form to n8n to spreadsheet to Power BI, no manual copying</span></a>
+    </div>
+  </div>
+</section>
 
+<section class="dark" aria-labelledby="std-h">
+  <div class="wrap">
+    <p class="eyebrow">How I build</p>
+    <h2 id="std-h">AI drafts. A person decides.</h2>
+    <p style="max-width:720px;margin:0">Every system I build keeps people in charge of decisions that matter, and is built so someone else can run, check and trust it.</p>
+    <div class="std">
+      <div><h3>Human approval</h3><p>High-value refunds, sensitive emails and exam questions wait for a person before anything happens.</p></div>
+      <div><h3>Grounded answers</h3><p>Answers cite their source documents, so a reviewer can check every claim.</p></div>
+      <div><h3>Safe with data</h3><p>Role checks before actions; personal data masked; no keys in code.</p></div>
+      <div><h3>Tested</h3><p>Unit tests for business rules and automated checks on every change.</p></div>
+    </div>
+  </div>
+</section>
 
-
-<!-- Education and Experience -->
-
-<div class="exp" id="experience">
+<section id="teaching" aria-labelledby="teach-h">
+  <div class="wrap split">
     <div>
-        <h2 class="section-title text-center font-weight-bold" style="font-size: 40px;">Education and Experience</h2>
-    </div> <!-- end title -->
-    
-    <div class="about-text">
-        <div class="about-tabs">
-            <button type="button" class="tab-item active" data-target="#education">education</button>
-            <button type="button" class="tab-item" data-target="#experience">experience</button>
-        </div>
-        <div class="tab-content active" id="education">
-            <div class="timeline">
-                <div class="timeline-item">
-                    <span class="date"> May 2023 – May 2024
-                    </span>
-                    <h4> Post Graduate Diploma in Data Science & Business Analytics - <span> Great Learning</span></h4>
-                    <p><strong>Skills Acquired:</strong> Analytical Skills, Data Visualization, Visualization, Statistical Analysis, Data Cleaning, Data Science, Data Analysis, Problem Solving, Decision-Making, Python (Programming Language), Data Analytics, Data Models, Project Management.
-                        <p><b>Score:95.29%</b></p><a href="#" class="proof" data-certificate="images/certificates/2.png">view certificate</a>
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <span class="date"> Jul 1997 - Jul 1999
-                    </span>
-                    <h4> M.Sc (Wildlife Sciences) - <span> Aligarh Muslim University</span></h4>
-                    <p><strong>Gold Medalist:</strong> participated in activities and societies like Bombay Natural History.
-                        <br> Demonstrated strong research skills.
-                        <p><b>Score:79%</b></p><a href="#" class="proof" data-certificate="images/certificates/7.png">view certificate</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    
-
-    <div id="certificate-modal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="certificate-img">
+      <p class="eyebrow">Teaching &amp; mentoring</p>
+      <h2 id="teach-h">Making AI accessible to non-technical learners</h2>
+      <p style="color:var(--ink2)">I teach AI to undergraduate and postgraduate business students in HR, finance, aviation, and logistics and supply chain programmes, linking every concept to the learner's own subject. Learners build projects, document them on GitHub and link them from their résumés, so employers can see their work.</p>
     </div>
-
-        <div class="tab-content" id="experience">
-            <div class="timeline">
-                <div class="timeline-item">
-                    <span class="date">Nov 2023 – Jun 2024</span>
-                    <h4>Data Analyst (Intern) - <span>Neubaitics Tech Pvt Ltd, Chennai</span></h4>
-                    <li>Spearheaded and executed projects and proof of concept initiatives, driving a remarkable 10 % enhancement 
-                        in the organization’s financial performance.</li>
-                    <li>Directed data cleaning and analysis for modelling, contributing to developing ML models using Python and 
-                        resulting in a 10% improvement in model accuracy.</li>
-                    <li>Teamed up with cross-functional teams, yielding a 15 % increase in project efficiency, and crafted impactful 
-                        data visualizations.</li>
-                       <li><b>Experience: 3 MONTHS</b></li>
-                    <br><a href="#" class="proof" data-certificate="images/certificates/3.png">view certificate</a>
-                </div>
-                <div class="timeline-item">
-                    <span class="date">Mar 2020 - Oct 2023</span>
-                    <h4>Statistical Analysis Assistant<span></span></h4>
-                    <li>Proficiently organized and managed large datasets to ensure accuracy and reliability in research processes.</li>
-                    <li>Conducted thorough statistical analyses to support research projects, utilizing advanced statistical methods and 
-                        software</li>    
-                    <li>Significantly contributed to various research endeavors, providing essential insights and data-driven conclusions.</li>
-                    <li>Delivered impactful presentations of research findings, effectively communicating complex data to diverse 
-                        audiences</li>
-                     <li><b>Experience: 3 YEARS 7 MONTHS</b></li>
-                    <br><a href="#" class="proof" data-certificate="images/certificates/8.png">view certificate</a>
-                </div>
-                <div class="timeline-item">
-                    <span class="date">Nov 2014 - Mar 2020</span>
-                    <h4>Technical Trainer <span></span></h4>
-                    <li>Taught at a blind school for girls in Jabalpur, Madhya Pradesh, fostering computer literacy and professional 
-                        skills.</li>
-                    <li>Spearheaded CSR initiatives with companies like ACC Limited, raising funds for Braille computers.
-                    </li>
-                    <li>Facilitated training sessions to equip students with essential computer skills for enhanced employability.</li>
-                    <li>Supported placement efforts, empowering visually impaired individuals to secure meaningful employment 
-                        opportunities</li>
-                         <li><b>Experience: 5 YEARS 4 MONTHS</b></li>
-                </div>
-                <div class="timeline-item">
-                    <span class="date">Aug 2013 - Aug 2014</span>
-                    <h4>Assistant Professor - <span>St. Aloysius College, Jabalpur</span></h4>
-                    <li>Developed and taught courses in Biostatistics and Zoology, emphasizing statistical methods and data 
-                        analysis. </li>
-                    <li>Integrated data driven research approaches and tools relevant to Biology. 
-                    </li>
-                    <li>Conducted statistical analysis and assisted in research work. 
-                        Mentored students in data analysis and supervised research projects.</li>
-                    <li>Collaborated with interdisciplinary teams for complex data analysis.
-                        Acquired expertise in data management, visualization and continual learning in data science.</li>
-                         <li><b>Experience: 1 YEAR</b></li>
-                    <!-- <br><a href="#" class="proof" data-certificate="images/certificates/4.png">view certificate</a> -->
-                </div>
-                <div class="timeline-item">
-                    <span class="date">Mar 2001 - Jul 2013</span>
-                    <h4>Guest Lecturer - <span>Chinmaya Degree College, Hardwar</span></h4>
-                    <li>Tailored content to align with the curriculum of forestry and wildlife management.
-                        Integrated field-specific data analysis methods into the lectures. </li>
-                    <li>Provided statistical analysis insights and research support during the sessions.
-                        Mentored students and offered guidance for their research projects. </li>
-                    <li> Engaged in interdisciplinary discussions on data analysis. 
-                         Acquired expertise in data management and visualization relevant to forestry and wildlife research through 
-                        these guest lecturing experiences.</li>
-                         <li><b>Experience: 12 YEARS 4 MONTHS</b></li>
-                    <!-- <br><a href="#" class="proof" data-certificate="images/certificates/4.png">view certificate</a> -->
-                </div>
-                <div class="timeline-item">
-                    <span class="date">Aug 1999 - Aug 2000</span>
-                    <h4>Visiting Fellow - <span>Indian Institute of Science Bangalore</span></h4>
-                    <li> Contributed as a Research Assistant at the Centre for Ecological Sciences </li>
-                    <li>Focused on conservation study of the Humboltia plant </li>
-                    <li>Studied the plant indigenous to the Western Ghats region.</li>
-                     <li><b>Experience: 1 YEAR</b></li>
-                    <!-- <br><a href="#" class="proof" data-certificate="images/certificates/4.png">view certificate</a> -->
-                </div>
-            </div>
-        </div>
+    <div>
+      <ul class="ticks">
+        <li>Course Coordinator for seven university AI courses (2026–27), including Generative AI, AI Agents and Automation, AI in Finance, AI in HR and AI Ethics</li>
+        <li>Hands-on labs in n8n, UiPath, Power Automate, Dialogflow and Power BI on real business datasets</li>
+        <li>Assessment design: Bloom's-level papers, rubrics, vivas and outcome-attainment reports</li>
+        <li>Designed and taught a full career-transition programme from Python to Generative AI, including for teachers moving into AI</li>
+        <li>Supported learners worldwide across 50+ online AI courses, and rebuilt course labs when they broke</li>
+        <li>Delivering a 40-hour Prompt Engineering programme for an international training firm</li>
+      </ul>
     </div>
-        
-</div>
+  </div>
+</section>
 
-<script>
-
-const tabsContainer = document.querySelector(".about-tabs"),
-      aboutSection = document.querySelector(".about-text");
-
-tabsContainer.addEventListener("click", (e) => {
-    if (e.target.classList.contains("tab-item") && !e.target.classList.contains("active")) {
-        tabsContainer.querySelector(".active").classList.remove("active");
-        e.target.classList.add("active");
-        const target = e.target.getAttribute("data-target");
-        aboutSection.querySelector(".tab-content.active").classList.remove("active");
-        aboutSection.querySelector(target).classList.add("active");
-    }
-});
-
-// for certificate view
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-    var modal = document.getElementById("certificate-modal");
-    var modalImg = document.getElementById("certificate-img");
-    var closeBtn = document.getElementsByClassName("close")[0];
-
-    document.querySelectorAll('.proof').forEach(function(element) {
-        element.addEventListener('click', function(event) {
-            event.preventDefault();
-            var imgSrc = event.target.getAttribute('data-certificate');
-            modal.style.display = "block";
-            modalImg.src = imgSrc;
-        });
-    });
-
-    closeBtn.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-});
-
-
-</script>
-<!--End of Education&Experience-->
-
-<br><br><br><br>
-
-
-
-<!--Project Section-->
-<div class="Pro" id="Project">
-    <h2 class="section-title text-center font-weight-bold" style="font-size: 40px;">Projects</h2>
-
-</div> <!-- end title -->
-<div class="container-pro">
-    
-        <div class="card" style="--clr:#009688;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/1-cus.png" alt="Image 1">
-            </div>
-            <div class="content">
-                <h2>Capstone Project: Customer Churn Prediction</h2>
-                
-                <a href="details.html?project=1" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#ff3e7f;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/2-apk4.png" alt="Image 2">
-            </div>
-            <div class="content">
-                <h2>FRA - Default Prediction and Stock Market Risk Analysis</h2>
-                
-                <a href="details.html?project=2" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#03a9f4;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/3-mark4.png" alt="Image 3">
-            </div>
-            <div class="content">
-                <h2>Customer Buying Patterns & Revenue Boost: 
-                    Auto Parts & Grocery
-                    </h2>
-                
-                <a href="details.html?project=3" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#8bc34a;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/4-mafebk4.png" alt="Image 4">
-            </div>
-            <div class="content">
-                <h2>Visualizing Insurance Claims using Tableau</h2>
-                
-                <a href="details.html?project=4" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#ff9800;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/5-jank4.png" alt="Image 5">
-            </div>
-            <div class="content">
-                <h2>Time Series Forecasting</h2>
-                
-                <a href="details.html?project=5" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#e91e63;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/6-deck3.png" alt="Image 6">
-            </div>
-            <div class="content">
-                <h2>DSBA SQL- New Wheels Case Study</h2>
-                
-                <a href="details.html?project=6" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#9c27b0;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/7-novk3.png" alt="Image 7">
-            </div>
-            <div class="content">
-                <h2>Election Exit Poll Prediction and U.S.A Presidential Speech Analysis using Machine Learning</h2>
-                
-                <a href="details.html?project=7" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#673ab7;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/8.png" alt="Image 8">
-            </div>
-            <div class="content">
-                <h2>Gems & Holiday Package Prediction</h2>
-                
-                <a href="details.html?project=8" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#3f51b5;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/9-sepk3.png" alt="Image 9">
-            </div>
-            <div class="content">
-                <h2>Segmentation using Clustering and PCA</h2>
-                
-                <a href="details.html?project=9" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#2196f3;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/10.png" alt="Image 10">
-            </div>
-            <div class="content">
-                <h2>Advance Statistics Graded Project DSBA New Structure</h2>
-                
-                <a href="details.html?project=10" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#4caf50;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/11.png" alt="Image 11">
-            </div>
-            <div class="content">
-                <h2>Analyse and Explore Data and reflect the insights - SMDM Project
-                </h2>
-                
-                <a href="details.html?project=11" class="view">View</a>
-            </div>
-        </div>
-        <div class="card" style="--clr:#f44336;">
-            <div class="imgBx">
-                <img src="images/projects/pro-image card/12.png" alt="Image 12">
-            </div>
-            <div class="content">
-                <h2>E-Commerce Revenue Management</h2>
-                
-                <a href="details.html?project=12" class="view">View</a>
-            </div>
-        </div>
-    </div> 
-
-    
-     <div class="detail-view">
-        <div class="detail-content">
-            <h2>Detail Title</h2>
-            <p>Elaborate content for the selected card. This will be replaced dynamically when a card is clicked.</p>
-            <a href="#index.html#Project" class="back">Back</a>
-        </div>
+<section id="experience" style="background:var(--sand);border-top:1px solid var(--line);border-bottom:1px solid var(--line)" aria-labelledby="exp-h">
+  <div class="wrap split">
+    <div style="flex:1 1 300px">
+      <p class="eyebrow">Experience</p>
+      <h2 id="exp-h">From the lab, to the classroom, to building AI</h2>
+      <p style="color:var(--ink2)">A gold-medal scientist and research assistant at IISc Bangalore, then nearly two decades of teaching, then a mid-career move into data science and AI.</p>
     </div>
-</div> 
-<!--End of ProjectSection-->
+    <div style="flex:2 1 520px">
+      <ol class="tl">
+        <li><div class="when">2026 – present</div><h3>Founder</h3><div class="org">Lavanya AI Consultancy</div><p>AI programmes for colleges and schools, and AI automation for organisations.</p></li>
+        <li><div class="when">Mar 2026 – present</div><h3>Visiting AI Faculty (contract)</h3><div class="org">University business programmes (MBA, BBA)</div><p>Course coordination, labs, assessments and GitHub portfolio mentoring.</p></li>
+        <li><div class="when">Jul 2026 – present</div><h3>Advisor (retainer)</h3><div class="org">Professional services firm</div><p>AI training delivery, programme materials, case studies and labs.</p></li>
+        <li><div class="when">Nov 2026 – present</div><h3>Generative AI Trainer (contract)</h3><div class="org">International training firm, USA</div><p>Prompt Engineering and Generative AI for Finance programmes.</p></li>
+        <li><div class="when">Apr 2025 – Oct 2026</div><h3>AI Curriculum Designer &amp; Lead Trainer</h3><div class="org">Edunix Solutions</div><p>Career-transition AI programme from Python to Generative AI, with deployed projects.</p></li>
+        <li><div class="when">Jun 2024 – Apr 2025</div><h3>Technical Specialist, AI Courses &amp; Labs</h3><div class="org">Skill-up Technologies</div><p>Technical support and lab quality for 50+ online AI courses.</p></li>
+        <li><div class="when">Nov 2023 – Jun 2024</div><h3>Data Analyst</h3><div class="org">Neubaitics Tech, Chennai</div><p>Churn and credit-risk models, and stakeholder reporting.</p></li>
+        <li><div class="when">Apr 2020 – Oct 2023</div><h3>Statistical Analyst</h3><div class="org">Avika Biological Research Foundation</div><p>Regression and hypothesis testing on multi-study datasets.</p></li>
+        <li><div class="when">2001 – 2020</div><h3>Educator</h3><div class="org">Colleges and schools</div><p>Science, mathematics, statistics and research methodology.</p></li>
+      </ol>
+      <p style="margin:8px 0 0;font-size:15.5px;color:var(--ink2)"><b style="color:var(--ink)">Education:</b> PG Diploma, Data Science &amp; Business Analytics (95.29%, Rank 5) · MSc Wildlife Sciences, Gold Medal, Aligarh Muslim University · B.Ed. · UGC-NET qualified</p>
+    </div>
+  </div>
+</section>
 
-<!--Contact-form-->
-<div id="contact" class="section db">
-    <div class="container">
-            <div class="section-title text-left">
-                <h3 id="con"><b>Contact Me</b></h3>
-                <p></p>
-            </div><!-- end title -->
+<section class="dark contact" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div style="flex:999 1 520px;min-width:0">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-h">Need a chatbot, an AI assistant, or AI training?</h2>
+      <p style="margin:0;max-width:600px">Tell me what you want to achieve.</p>
+    </div>
+    <div class="ctas">
+      <a class="btn btn-gold" href="mailto:lavanya.sriva@gmail.com?subject=Project%20enquiry">Email me</a>
+      <a class="btn btn-line" href="https://www.linkedin.com/in/lavanya-srivastava-2a2aba54">Message on LinkedIn</a>
+      <a class="btn btn-line" href="https://github.com/lavanya1402">See all code on GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact_form">
-                        <form id="contactForm" action="mailto:lavanya.sriva@gmail.com" method="post"
-                            enctype="text/plain">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" name="name" type="text" placeholder="Your Name"
-                                            required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" name="email" type="email" placeholder="Your Email"
-                                            required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" name="subject" type="text" placeholder="Subject"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" placeholder="Your Message"
-                                            required></textarea>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="col-lg-12 text-center">
-                                    <button id="sendMessageButton" class="submit" type="submit">Send
-                                        Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div>    <!-- end section -->
-<!---->
-    <script src="js/contact_me.js"></script>
-
-
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-left">
-                    <p class="footer-links">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#Project">Projects</a>
-                        <a href="#contact">Contact</a>
-                    </p>
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2024<a href="#">Lavanya</a>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
-
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-<!--End of Contact-->
-    
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <!-- Camera Slider -->
-    <script src="js/parallaxie.js"></script>
-    <script src="js/headline.js"></script>
-    <!-- Contact form JavaScript -->
-    <script src="js/contact_me.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-
+<footer>
+  <div class="wrap">
+    <span>© 2026 Lavanya Srivastava · Lavanya AI Consultancy</span>
+    <span>AI drafts. A person decides.</span>
+  </div>
+</footer>
 </body>
-
 </html>
